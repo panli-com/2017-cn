@@ -1,0 +1,32 @@
+.sp{
+    &-banner{
+        height: 620px;
+        background:#fe3875 url(./imgs/banner.png) no-repeat center -43px;
+    }
+    &-header{
+        background-color: #fe3875;
+        padding-bottom: 30px;
+        &-m{
+            position: relative;
+        }
+        a{
+            position: absolute;
+        }
+        .a-link{
+            display: inline-block;
+            background-color: rosybrown;
+            opacity: .3;
+            height: 30px;
+            &-n1{
+                width: 160px;
+                left: 560px;
+                top: 130px;
+            }
+            &-n2{
+                width: 200px;
+                left: 240px;
+                top: 180px;
+            }
+        }
+    }
+}
