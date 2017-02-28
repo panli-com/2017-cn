@@ -7,7 +7,7 @@ Thumbs.db
 node_modules
 
 .DS_Store
-
+*.zip
 .vscode
 .DS_STORE
 
