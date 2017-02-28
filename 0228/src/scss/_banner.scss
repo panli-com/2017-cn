@@ -14,12 +14,13 @@
         }
         .a-link{
             display: inline-block;
-            background-color: rosybrown;
-            opacity: .3;
+            background-color: transparent;
+            opacity: 0;
             height: 30px;
+            cursor: pointer;
             &-n1{
                 width: 160px;
-                left: 560px;
+                left: 760px;
                 top: 130px;
             }
             &-n2{
@@ -28,5 +29,8 @@
                 top: 180px;
             }
         }
+    }
+    &-main{
+        padding-top: 20px;
     }
 }

@@ -2,7 +2,7 @@
 
     $(function() {
 
-        $(".floor-nav").on("click",".li2" ,function() {
+        $(".floor-nav").on("click","li" ,function() {
             var _t = $(this),
                 _tf = _t.attr("floor");
                 goTofloorC(_tf);
@@ -28,15 +28,6 @@
     $(window).scroll(function() {
         var scrollTop = $(window).scrollTop();
         $('.floor-nav')[scrollTop > 400 ? 'show' : 'hide']();
-
     });
-
-     $("body").on("click",".layer-show",function(){
-        layerInfo();
-      })
-
-      $("body").on("click",".close-layer",function(){
-        PL.closeAll();
-      })
 
 })();
