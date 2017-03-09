@@ -35,7 +35,7 @@
                 _src = _t.attr("data-src");
                 _h = _t.attr("data-h");
                 _w = _t.attr("data-w");
-                console.log(_src);
+         
            var html =  $(".layer-html-"+_src).html();
                 PL.open({
                   type: 1,
