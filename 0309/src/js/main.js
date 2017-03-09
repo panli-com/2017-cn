@@ -49,8 +49,8 @@
      });    
       
       
-      $("body").on("click",".close-layer",function(){
-        PL.closeAll();
-      })
+    //   $("body").on("click",".close-layer",function(){
+    //     PL.closeAll();
+    //   })
 
 })();
