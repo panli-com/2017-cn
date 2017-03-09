@@ -23,7 +23,6 @@
             });
         });
 
-
         PD("body").on("click", ".lay-close", function () {
             PL.closeAll()
         })
