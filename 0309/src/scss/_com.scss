@@ -1,0 +1,33 @@
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix {
+    /* 触发 hasLayout */
+    zoom: 1;
+}
+
+.clear{
+    clear: both;
+    overflow: hidden;
+}
+
+.layui-layer-page .layui-layer-content{
+    overflow:hidden;
+}
+.layui-layer-shade{
+    opacity: .8!important; 
+    filter: alpha(opacity=80)!important;
+}

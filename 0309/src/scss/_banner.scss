@@ -1,0 +1,142 @@
+.sp {
+    &-banner {
+        height: 469px;
+        // background:#dd3736 url(./imgs/banner.png) no-repeat center -83px;
+        position: relative;
+        a {
+            position: absolute;
+            display: block;
+            width: 380px;
+            height: 70px;
+            background-color: transparent;
+            top: 350px;
+            left: 50%;
+            text-decoration: none;
+            margin-left: -190px;
+            cursor: pointer;
+        }
+    }
+    &-header {
+        background-color: #fe3875;
+        padding-bottom: 30px;
+        &-m {
+            position: relative;
+        }
+        a {
+            position: absolute;
+        }
+        .a-link {
+            display: inline-block;
+            background-color: transparent;
+            opacity: 0;
+            height: 30px;
+            cursor: pointer;
+            &-n1 {
+                width: 160px;
+                left: 760px;
+                top: 130px;
+            }
+            &-n2 {
+                width: 200px;
+                left: 240px;
+                top: 180px;
+            }
+        }
+    }
+    &-main {
+        position: relative;
+        // padding-top: 20px;
+        height: 1913px;
+        background: url(./imgs/chat.png) no-repeat center top;
+        .click {
+            &-a {
+                position: absolute;
+                display: block;
+                width: 390px;
+                height: 156px;
+                background-color: rebeccapurple;
+                opacity: .1;
+                left: 130px;
+            }
+            &-app {
+                top: 70px;
+            }
+            &-weibo {
+                top: 730px;
+            }
+            &-weixin {
+                top: 1270px;
+            }
+        }
+    }
+    &-detail {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 273px;
+        background: url(./imgs/detail.png) no-repeat center top;
+        a {
+            position: absolute;
+            display: block;
+            width: 140px;
+            height: 40px;
+            background-color: transparent;
+            text-decoration: none;
+            left: 800px;
+            top: 140px;
+        }
+    }
+}
+
+.think-boss {
+    position: absolute;
+    display: block;
+    width: 226px;
+    height: 209px;
+    top: 172px;
+    left: 660px;
+    background: #f2f2f2 url(./imgs/think-boss.gif) no-repeat center top;
+}
+
+.layer {
+    &-html {
+        &-app {
+            &-main {
+                position: relative;
+                // height: 760px;
+                // width: 1000px;
+            }
+        }
+        &-weibo {
+            &-main {
+                position: relative;
+
+                .online-url {
+                    position: absolute;
+                    display: block;
+                    width: 300px;
+                    height: 50px;
+                    left: 50%;
+                    margin-left: -150px;
+                    bottom: 50px;
+                    text-decoration: none;
+                    background-color: transparent;
+                }
+            }
+        }
+    }
+}
+
+.close-layer {
+    position: absolute;
+    display: block;
+    width: 100px;
+    height: 100px;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: transparent;
+    opacity: 0;
+    right: 10px;
+    z-index: 99;
+}
