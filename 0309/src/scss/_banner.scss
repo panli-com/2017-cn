@@ -104,14 +104,21 @@
         &-app {
             &-main {
                 position: relative;
+                height: 100%;
+                width: 100%;
                 // height: 760px;
                 // width: 1000px;
+                background:url(./imgs/lay-app.png) no-repeat center top;
             }
         }
         &-weibo {
             &-main {
                 position: relative;
-
+                height: 100%;
+                width: 100%;
+                // height: 760px;
+                // width: 1000px;
+                background:url(./imgs/lay-weibo.png) no-repeat center top;
                 .online-url {
                     position: absolute;
                     display: block;
@@ -123,6 +130,17 @@
                     text-decoration: none;
                     background-color: transparent;
                 }
+            }
+        }
+         &-weixin {
+            &-main {
+                position: relative;
+                 height: 100%;
+                width: 100%;
+                // height: 760px;
+                // width: 1000px;
+                background:url(./imgs/lay-weixin.png) no-repeat center top;
+               
             }
         }
     }
