@@ -1,7 +1,7 @@
 {   
-    "start":"0309",
+    "start":"0309-h5",
     "0309-h5": {
-        "id":"510",
+        "id":"509",
         "title": "12周年领红包",
         "keywords":"Panli代购,代购,海外代购,华人代购,代购中国,淘宝代购,留学生代购",
         "description":"Panli网－全球最大的专业代购网络，为海外华人代购国内各种商品，方便您的购物需求",
@@ -12,7 +12,7 @@
             "js": ["./libs/js/D.js","./libs/js/view-rem720.js","./libs/js/fastclick.js","./0309-h5/src/js/*.js"]
         },
         "build":{
-            "css":"510.css",
+            "css":"509.css",
             "js":"app.js"
         }
     },
