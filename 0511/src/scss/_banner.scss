@@ -1,0 +1,42 @@
+.sp {
+  &-banner {
+    height: 600px;
+    background: #f43a8d url(./imgs/banner.png) no-repeat center -82px;
+  }
+  &-header {
+    padding-top: 36px;
+    background-color: #f43a8d;
+    // padding-bottom: 30px;
+    &-m {
+      position: relative;
+    }
+    a {
+      position: absolute;
+    }
+    .a-link {
+      display: inline-block;
+      background-color: transparent;
+      opacity: 0;
+      height: 70px;
+      cursor: pointer;
+      &-n1 {
+        width: 198px;
+        left: 708px;
+        top: 46px;
+      }
+      &-n2 {
+        width: 120px;
+        left: 310px;
+        top: 161px
+      }
+      &-n3 {
+        width: 120px;
+        left: 803px;
+        top: 188px;
+      }
+    }
+  }
+  &-main {
+    padding-top: 20px;
+  }
+}
