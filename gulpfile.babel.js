@@ -160,7 +160,7 @@ gulp.task('dev', ['sass'], () => {
   gulp.watch(`./${day}/*.html`).on('change', reload);
   gulp.watch('./*.html').on('change', reload);
 
-  gulp.watch([`./${day}/src/templates/html.html`], ['host']);
+  gulp.watch([`./${day}/src/templates/html/html.html`], ['host']);
   gulp.watch([`./${day}/src/templates/*.ejs`, `./${day}/src/templates/html/index.html`], ['ejs']);
 
 });
