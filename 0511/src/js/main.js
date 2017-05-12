@@ -61,7 +61,6 @@
     floorNnav();
   })
 
-
   $(window).scroll(function() {
     var scrollTop = $(window).scrollTop();
     var scrollTop2 = scrollTop;
@@ -72,8 +71,6 @@
     } else {
       $('.floor-nav').hide()
     }
-
-
   });
 
 })();
