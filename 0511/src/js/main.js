@@ -64,7 +64,16 @@
 
   $(window).scroll(function() {
     var scrollTop = $(window).scrollTop();
-    $('.floor-nav')[scrollTop > 400 ? 'show' : 'hide']();
+    var scrollTop2 = scrollTop;
+    var footerTop = $(".footer").offset().top - 700;
+
+    if (scrollTop > 400 && scrollTop2 < footerTop) {
+      $('.floor-nav').show()
+    } else {
+      $('.floor-nav').hide()
+    }
+
+
   });
 
 })();
