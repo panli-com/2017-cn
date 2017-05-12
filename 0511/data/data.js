@@ -203,7 +203,7 @@ var productData = [{
     "商品名称": "双眼皮定型霜（持久隐形）",
     "链接": "https://detail.tmall.com/item.htm?id=544761711478",
     "图片名称": "yz2.jpg",
-    "价格": "￥49.00",
+    "价格": "49.00",
     "负责人": "Sharon"
   },
   {
@@ -211,7 +211,7 @@ var productData = [{
     "商品名称": "苏菲娜防晒爽（清爽型）",
     "链接": "https://detail.tmall.com/item.htm?id=42863613141",
     "图片名称": "yz3.jpg",
-    "价格": "￥238.00",
+    "价格": "238.00",
     "负责人": "Sharon"
   },
   {
@@ -219,7 +219,7 @@ var productData = [{
     "商品名称": "innisfree红酒夜间修护面膜",
     "链接": "https://detail.tmall.com/item.htm?id=14954747847",
     "图片名称": "yz4.jpg",
-    "价格": "￥100.00",
+    "价格": "100.00",
     "负责人": "Sharon"
   },
   {
@@ -227,7 +227,7 @@ var productData = [{
     "商品名称": "the saem得鲜眼影盘",
     "链接": "https://item.taobao.com/item.htm?id=542546240187",
     "图片名称": "yz5.jpg",
-    "价格": "￥95.00",
+    "价格": "95.00",
     "负责人": "Sharon"
   },
   {
@@ -235,7 +235,7 @@ var productData = [{
     "商品名称": "Rosette海泥洗面奶（绿泥）",
     "链接": "https://chaoshi.detail.tmall.com/item.htm?id=535524118266",
     "图片名称": "yz6.jpg",
-    "价格": "￥39.00",
+    "价格": "39.00",
     "负责人": "Sharon"
   },
   {
@@ -243,7 +243,7 @@ var productData = [{
     "商品名称": "雪花秀凝脂玉面膜（新品）",
     "链接": "https://detail.tmall.com/item.htm?id=549056310838",
     "图片名称": "yz7.jpg",
-    "价格": "￥600.00",
+    "价格": "600.00",
     "负责人": "Sharon"
   },
   {
@@ -251,7 +251,7 @@ var productData = [{
     "商品名称": "日本娜蜜丝纳米喷雾补水仪",
     "链接": "https://detail.tmall.com/item.htm?id=17942912815",
     "图片名称": "yz8.jpg",
-    "价格": "￥268.00",
+    "价格": "268.00",
     "负责人": "Sharon"
   },
   {
@@ -259,7 +259,7 @@ var productData = [{
     "商品名称": "超下饭牛肉酱（岳云鹏星店）",
     "链接": "https://item.taobao.com/item.htm?id=538057105997",
     "图片名称": "ls1.jpg",
-    "价格": "￥16.80",
+    "价格": "16.80",
     "负责人": "Sharon"
   },
   {
@@ -267,7 +267,7 @@ var productData = [{
     "商品名称": "来伊份BBQ烤翅",
     "链接": "https://detail.tmall.com/item.htm?id=13091859913",
     "图片名称": "ls2.jpg",
-    "价格": "￥59.90",
+    "价格": "59.90",
     "负责人": "Sharon"
   },
   {
@@ -275,7 +275,7 @@ var productData = [{
     "商品名称": "有友椒香泡凤爪",
     "链接": "https://chaoshi.detail.tmall.com/item.htm?id=542677036935",
     "图片名称": "ls3.jpg",
-    "价格": "￥13.90",
+    "价格": "13.90",
     "负责人": "Sharon"
   },
   {
@@ -283,7 +283,7 @@ var productData = [{
     "商品名称": "好想你脆冬枣",
     "链接": "https://detail.tmall.com/item.htm?id=524424466884",
     "图片名称": "ls4.jpg",
-    "价格": "￥39.90",
+    "价格": "39.90",
     "负责人": "Sharon"
   },
   {
@@ -291,7 +291,7 @@ var productData = [{
     "商品名称": "紫菜肉松鸡蛋卷",
     "链接": "https://item.taobao.com/item.htm?id=528985491804",
     "图片名称": "ls5.jpg",
-    "价格": "￥39.90",
+    "价格": "39.90",
     "负责人": "Sharon"
   },
   {
@@ -299,7 +299,7 @@ var productData = [{
     "商品名称": "宇仔大刀肉辣条",
     "链接": "https://item.taobao.com/item.htm?id=528988084164",
     "图片名称": "ls6.jpg",
-    "价格": "￥7.80",
+    "价格": "7.80",
     "负责人": "Sharon"
   },
   {
@@ -307,7 +307,7 @@ var productData = [{
     "商品名称": "安徽特产小糯米锅巴",
     "链接": "https://detail.tmall.com/item.htm?id=40257477567",
     "图片名称": "ls7.jpg",
-    "价格": "￥38.60",
+    "价格": "38.60",
     "负责人": "Sharon"
   },
   {
@@ -315,7 +315,7 @@ var productData = [{
     "商品名称": "蔡林记原味武汉热干面",
     "链接": "https://chaoshi.detail.tmall.com/item.htm?id=526576697492",
     "图片名称": "ls8.jpg",
-    "价格": "￥33.90",
+    "价格": "33.90",
     "负责人": "Sharon"
   },
   {
@@ -323,7 +323,7 @@ var productData = [{
     "商品名称": "软底防滑情侣拖鞋",
     "链接": "https://item.taobao.com/item.htm?id=543535344883",
     "图片名称": "jj1.jpg",
-    "价格": "￥16.99",
+    "价格": "16.99",
     "负责人": "Sharon"
   },
   {
@@ -331,7 +331,7 @@ var productData = [{
     "商品名称": "卡通大容量收纳包",
     "链接": "https://item.taobao.com/item.htm?id=538353604907",
     "图片名称": "jj2.jpg",
-    "价格": "￥27.90",
+    "价格": "27.90",
     "负责人": "Sharon"
   },
   {
@@ -339,7 +339,7 @@ var productData = [{
     "商品名称": "喷雾迷你风扇",
     "链接": "https://detail.tmall.com/item.htm?id=549142859638",
     "图片名称": "jj3.jpg",
-    "价格": "￥79.00",
+    "价格": "79.00",
     "负责人": "Sharon"
   },
   {
@@ -347,7 +347,7 @@ var productData = [{
     "商品名称": "旅游便携牙刷盒",
     "链接": "https://item.taobao.com/item.htm?id=549111945726",
     "图片名称": "jj4.jpg",
-    "价格": "￥8.80",
+    "价格": "8.80",
     "负责人": "Sharon"
   },
   {
@@ -355,7 +355,7 @@ var productData = [{
     "商品名称": "空调挡风板",
     "链接": "https://item.taobao.com/item.htm?id=550106450753",
     "图片名称": "jj5.jpg",
-    "价格": "￥53.80",
+    "价格": "53.80",
     "负责人": "Sharon"
   },
   {
@@ -363,7 +363,7 @@ var productData = [{
     "商品名称": "桌面神器（懒人必备）",
     "链接": "https://item.taobao.com/item.htm?id=549688759301",
     "图片名称": "jj6.jpg",
-    "价格": "￥14.90",
+    "价格": "14.90",
     "负责人": "Sharon"
   },
   {
@@ -371,7 +371,7 @@ var productData = [{
     "商品名称": "可爱卡通印花遮阳伞",
     "链接": "https://item.taobao.com/item.htm?id=548701835910",
     "图片名称": "jj7.jpg",
-    "价格": "￥39.90",
+    "价格": "39.90",
     "负责人": "Sharon"
   },
   {
@@ -379,7 +379,7 @@ var productData = [{
     "商品名称": "收纳凳储物凳",
     "链接": "https://detail.tmall.com/item.htm?id=526090269508",
     "图片名称": "jj8.jpg",
-    "价格": "￥17.80",
+    "价格": "17.80",
     "负责人": "Sharon"
   }
 ]
