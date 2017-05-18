@@ -34,9 +34,10 @@
   height: 110px;
   margin-top: 10px;
   padding: 10px;
+  clear: both;
   // margin-bottom: 10px;
   a {
-    display: inline-block;
+    float: left;
     width: 160px;
     height: 53px;
     margin-right: 2px;
