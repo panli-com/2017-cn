@@ -1,0 +1,60 @@
+.floor-nav {
+  position: fixed;
+  left: 10px;
+  margin-top: -150px;
+  top: 50%;
+  z-index: 9999;
+  display: none;
+  width: 204px;
+  a {
+    text-decoration: none;
+    display: block;
+  }
+  .floor-nav-u {
+    padding-top: 97px;
+    li {
+      display: block;
+      opacity: 0;
+      height: 42px;
+      background-color: transparent;
+      margin-bottom: 2px;
+      cursor: pointer;
+      a {
+        text-decoration: none;
+        height: 100%;
+        display: block;
+      }
+    }
+  }
+  .back-top {
+    cursor: pointer;
+    display: block;
+    width: 160px;
+    height: 50px;
+    background-color: transparent;
+  }
+  .top-icon {
+    cursor: pointer;
+    height: 20px;
+    background: url(./imgs/top-icon.png) no-repeat 66px center;
+    margin-bottom: 4px;
+  }
+  .sp-tip {
+    height: 129px;
+    position: relative;
+    background: url(./imgs/tip-content.png) no-repeat center center;
+  }
+  .sp-girl {
+    height: 101px;
+    background: url(./imgs/girl.png) no-repeat center center;
+  }
+  .close-tip {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    // background-color: darkcyan;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+  }
+}

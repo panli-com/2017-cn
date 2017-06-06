@@ -1,0 +1,35 @@
+.sp {
+  &-banner {
+    height: 600px;
+    background: url(./imgs/detail.png) no-repeat center bottom;
+    margin-bottom: 36px;
+  }
+  &-header {
+    height: 84px;
+    background: url(./imgs/h1.png) no-repeat center center;
+    position: relative;
+  }
+  &-main {
+    padding-top: 20px;
+  }
+}
+
+.line-1 {
+  position: absolute;
+  width: 300px;
+  height: 2px;
+  background-color: #ff7ca4;
+  top: 50%;
+  left: 0;
+  margin-top: -1px;
+}
+
+.line-2 {
+  position: absolute;
+  width: 300px;
+  height: 2px;
+  background-color: #ff7ca4;
+  top: 50%;
+  right: 0;
+  margin-top: -1px;
+}
