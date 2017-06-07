@@ -19,6 +19,7 @@
 
     $("#sp-close-tip").on("click", function() {
       $(".sp-tip").hide()
+      $(".floor-nav").addClass("floor-nav_2")
     })
 
     floorNnav();

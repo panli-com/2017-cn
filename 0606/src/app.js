@@ -72,7 +72,7 @@ function FloorShopAll(data, imgHead, id) {
                 <img src="./build/css/imgs/scan/${imgName}" alt="">
               </div>
               <div class="scan-txt">
-                打开 番淘App
+                打开 <span class="strong">番淘App</span>
               </div>
               <div class="scan-txt">
                 点击购物车左上角“扫一扫”下单
