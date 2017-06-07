@@ -3,6 +3,8 @@
 
   $(function() {
 
+    $(".r_l_nav").remove()
+
     $(".floor-nav").on("click", "li", function() {
       var _t = $(this),
         _tf = _t.attr("floor");
