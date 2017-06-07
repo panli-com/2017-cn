@@ -65,7 +65,7 @@ function FloorShopAll(data, imgHead, id) {
               </div>
               <div class="p-title">${name}</div>
               <div class="p-desc">${desc}</div>
-              <div class="scan-icon"></div>
+              <div class="scan-icon">&nbsp;</div>
             </div>
             <div class="scan-box">
               <div class="scan-img-box">
