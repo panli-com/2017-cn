@@ -19,7 +19,11 @@
 
     $("#sp-close-tip").on("click", function() {
       $(".sp-tip").hide()
+      $(".sp-girl").hide()
       $(".floor-nav").addClass("floor-nav_2")
+      var girlBox = $("#sp-girl-box")
+      girlBox.removeClass("hide")
+      $(".sp-girl_3").addClass("sp-girl-animation")
     })
 
     floorNnav();
