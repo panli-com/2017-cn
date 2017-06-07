@@ -5,7 +5,7 @@
   z-index: 9999;
   display: none;
   width: 204px;
-  transition: .3 all ease-in-out;
+  transition: all .3s ease;
   &.floor-nav_2 {
     width: 101px;
     .top-icon {
@@ -36,18 +36,20 @@
     }
   }
   .top-icon {
+    transition: all .3s ease;
     cursor: pointer;
     height: 20px;
     background: url(./imgs/top-icon.png) no-repeat 66px center;
     margin-bottom: 4px;
   }
   .sp-tip {
+    transition: all .3s ease;
     height: 129px;
     position: relative;
     background: url(./imgs/tip-content.png) no-repeat center center;
   }
   .sp-girl {
-    transition: .3 all ease-in-out;
+    transition: all .6s ease;
     height: 104px;
     background: url(./imgs/girl.png) no-repeat center center;
   }
