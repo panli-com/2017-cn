@@ -5,13 +5,6 @@
 
     $(".r_l_nav").remove()
 
-    $(".floor-nav").on("click", "li", function() {
-      var _t = $(this),
-        _tf = _t.attr("floor");
-      goTofloorC(_tf);
-    });
-
-
 
     $(".back-top").on("click", function() {
       $('body,html').animate({ scrollTop: 0 }, 300);
@@ -24,6 +17,11 @@
       var girlBox = $("#sp-girl-box")
       girlBox.removeClass("hide")
       $(".sp-girl_3").addClass("sp-girl-animation")
+
+      setTimeout(function() {
+        $(".sp-girl_3").removeClass("sp-girl-animation")
+      }, 5000)
+
     })
 
     floorNnav();
