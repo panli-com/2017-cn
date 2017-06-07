@@ -16,10 +16,12 @@
       $(".floor-nav").addClass("floor-nav_2")
       var girlBox = $("#sp-girl-box")
       girlBox.removeClass("hide")
-      $(".sp-girl_3").addClass("sp-girl-animation")
+
+      var girl3 = (".sp-girl_3")
+      girl3.addClass("sp-girl-animation")
 
       setTimeout(function() {
-        $(".sp-girl_3").removeClass("sp-girl-animation")
+        girl3.removeClass("sp-girl-animation")
       }, 5000)
 
     })
