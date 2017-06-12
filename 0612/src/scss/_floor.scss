@@ -1,0 +1,121 @@
+.time-top {
+  text-align: center;
+  position: relative;
+  a {
+    position: absolute;
+    display: inline-block;
+    width: 250px;
+    height: 60px;
+    right: 40px;
+    top: 20px;
+    background-color: transparent;
+  }
+}
+
+.floor {
+  position: relative;
+  padding-bottom: 20px;
+  .more {
+    display: inline-block;
+  }
+  .txt-r {
+    text-align: right;
+  }
+  .txt-c {
+    text-align: center;
+  }
+  .title {
+    position: relative;
+  }
+  .floor-body {
+    padding-top: 10px;
+    // padding: 20px 0;
+  }
+}
+
+.product {
+  &-list {
+    margin-right: -20px;
+    li {
+      float: left;
+      width: 320px;
+      margin-right: 7px;
+      margin-bottom: 10px;
+      transition: all .5s;
+      border: 4px solid #FFF;
+      background-color: #FFF;
+      &:hover {
+        transition: all .5s;
+        // transform:translateY(-2px);
+        img {
+          transform: scale(1.03);
+        }
+      }
+    }
+    a {
+      color: #333;
+      font-size: 12px;
+      text-decoration: none;
+    }
+    img {
+      transition: all .5s;
+      display: block;
+      max-width: 100%;
+    }
+    .thumb {
+      width: 320px;
+      height: 150px;
+      overflow: hidden;
+      background: #FFF url(./imgs/balls.svg) no-repeat center center;
+    }
+    .desc {
+      text-align: center;
+      padding: 6px 2px;
+      font-size: 14px;
+      color: #333;
+    }
+  }
+}
+
+.floor-list {
+  margin-left: -5px;
+  margin-right: -5px;
+  ul {
+    clear: both;
+    overflow: hidden;
+  }
+  li {
+    float: left;
+    margin: 5px;
+  }
+}
+
+.layui-layer-shade {
+  opacity: .8!important;
+  filter: alpha(opacity=80)!important;
+}
+
+.layer-html-1-main {
+  position: relative;
+  overflow: hidden;
+  .online-url-sp {
+    position: absolute;
+    width: 160px;
+    height: 30px;
+    top: 392px;
+    left: 280px;
+    background-color: transparent;
+    cursor: pointer;
+    text-decoration: none;
+  }
+}
+
+.close-layer {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background-color: transparent;
+  right: 10px;
+  cursor: pointer;
+  top: 0;
+}
