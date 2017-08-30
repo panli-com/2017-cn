@@ -54,7 +54,7 @@ function FloorShopAll(data, imgHead, id) {
     var url = data[i]['链接'];
     var name = data[i]['店铺名字'];
 
-    str += `<a href="${url}" class="shop-a" target="_blank" title="${name}"></a>`
+    str += `<a href="${url}" class="shop-a" target="_blank" title="${name}">&nbsp;</a>`
 
 
   };
