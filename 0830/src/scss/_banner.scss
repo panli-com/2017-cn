@@ -1,0 +1,23 @@
+.sp {
+  &-banner {
+    height: 582px;
+    // background: #ed5a39 url(./imgs/banner.png) no-repeat center top;
+  }
+  &-detail{
+    position: relative;
+
+    .detail-a{
+      position: absolute;
+      width: 160px;
+      height: 34px;
+      cursor: pointer;
+      // background-color: forestgreen;
+      left: 694px;
+      top: 135px;
+      &_2{
+        top: 205px;
+        left: 730px;
+      }
+    }
+  }
+}

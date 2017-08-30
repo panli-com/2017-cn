@@ -1,0 +1,100 @@
+<div id="frame">
+  <div class="sp-banner">&nbsp;</div>
+  <div class="sp-detail m-auto w1" id="sp-detail">
+    <div class="sp-detail">
+      <img src="./build/css/imgs/detail.png" alt="">
+      <a href="javascript:void(0);" title="了解详情" id="jingxi-1" data-src="1" class="detail-a detail-a_1">&nbsp;</a>
+      <a href="javascript:void(0);" title="了解详情" id="jingxi-2" data-src="2" class="detail-a detail-a_2">&nbsp;</a>
+    </div>
+  </div>
+  <div class="sp-main m-auto w1">
+
+    <div class="floor-1 floor" id="floor-1">
+      <div class="title txt-c">
+        <img src="./build/css/imgs/title-1.png" alt="">
+      </div>
+      <div class="floor-body">
+        <ul class="clear product-list">
+
+        </ul>
+      </div>
+      <div class="floor-more">&nbsp;</div>
+      <div class="floor-shop">
+      </div>
+    </div>
+    <div class="floor-2 floor" id="floor-2">
+      <div class="title txt-c">
+        <a href="javascript:void(0);" class="more">
+          <img src="./build/css/imgs/title-2.png" alt="">
+        </a>
+      </div>
+
+      <div class="floor-body">
+        <ul class="clear product-list">
+        </ul>
+      </div>
+      <div class="floor-more">&nbsp;</div>
+      <div class="floor-shop">
+
+      </div>
+    </div>
+    <div class="floor-3 floor" id="floor-3">
+      <div class="title txt-c">
+        <a href="javascript:void(0);" class="more">
+          <img src="./build/css/imgs/title-3.png" alt="">
+        </a>
+      </div>
+      <div class="floor-body">
+        <ul class="clear product-list">
+        </ul>
+      </div>
+      <div class="floor-more">&nbsp;</div>
+      <div class="floor-shop">
+      </div>
+    </div>
+  </div>
+</div>
+<!--layer-->
+<div class="layer-img-click-wrap" style="display:none">
+  <div class="layer-html-1">
+    <div class="layer-html-1-main">
+      <div class="close-layer" title="关闭">&nbsp;</div>
+      <img src="./build/css/imgs/layer-1.png" alt="">
+      <!-- <a href="" target="_blank" class="online-url-sp">&nbsp;</a> -->
+    </div>
+  </div>
+  <div class="layer-html-2">
+    <div class="layer-html-2-main">
+      <div class="close-layer" title="关闭">&nbsp;</div>
+      <img src="./build/css/imgs/layer-2.png" alt="">
+    </div>
+  </div>
+</div>
+<!--layer end-->
+<!--floor-nav-->
+<div class="floor-nav">
+  <ul class="floor-nav-u">
+    <li class="li1" floor="sp-detail">
+      <a href="javascript:void(0);">&nbsp;</a>
+    </li>
+    <li class="li2" floor="floor-1">
+      <a href="javascript:void(0);">&nbsp;</a>
+    </li>
+    <li class="li3" floor="floor-2">
+      <a href="javascript:void(0);">&nbsp;</a>
+    </li>
+    <li class="li4" floor="floor-3">
+      <a href="javascript:void(0);">&nbsp;</a>
+    </li>
+  </ul>
+</div>
+<script src="./build/css/js/app.js"></script>
+
+<script src="./data/data.js"></script>
+<script src="./data/shop.js"></script>
+<script src="./data/html.js"></script>
+<script src="./src/app.js"></script>
+<script>
+  FloorList(productData)
+  FloorShopList(shopList)
+</script>

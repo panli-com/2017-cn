@@ -1,0 +1,35 @@
+$bgclor:#332358;
+.w1 {
+  width: 1000px;
+}
+
+.m-auto {
+  margin: 0 auto;
+}
+
+.footer {
+  margin-top: 0;
+}
+
+#frame {
+  padding-bottom: 0px;
+  background: #ed5a39 url(./imgs/banner.png) no-repeat center top;
+  a {
+    text-decoration: none;
+  }
+}
+
+.page-sp {
+  // background:$bgclor url(./imgs/light-bg.png) no-repeat center 174px;
+  padding-bottom: 40px;
+  font-family: 'Hiragino Sans GB', "Microsoft YaHei", arial;
+}
+
+.layui-Pan-nobg {
+  background-color: transparent;
+}
+
+.sp-main{
+  padding-top: 13px;
+  padding-bottom: 40px;
+}
