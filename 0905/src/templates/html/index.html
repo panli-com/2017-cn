@@ -1,0 +1,59 @@
+<div id="frame">
+      <!--banner-->
+      <div class="sp-banner">&nbsp;</div>
+      <!--banner end-->
+      <!--product -->
+      <div class="sp-main m-auto w" id="floor_1">
+        <div class="sp-main-title">
+          <img src="./build/css/imgs/title.png" alt="">
+        </div>
+        <ul class="product-ul">
+          <li class="product-li">
+            <div class="r-box">
+              <div class="thumb">
+                <img src="./build/css/imgs/products/1.png" alt="">
+              </div>
+              <div class="p-title">Line布朗熊便当盒</div>
+              <div class="p-desc">让萌货陪你一起吃饭</div>
+              <div class="scan-icon"></div>
+            </div>
+            <div class="scan-box">
+              <div class="scan-img-box">
+                <img src="./build/css/imgs/scan/1.png" alt="">
+              </div>
+              <div class="scan-txt">
+                打开 番淘App
+              </div>
+              <div class="scan-txt">
+                点击购物车左上角“扫一扫”下单
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <!--product end -->
+      <!--footer-->
+      <div class="sp-footer">
+        <img src="./build/css/imgs/footer.png" alt="">
+      </div>
+      <!--footer end-->
+</div>
+
+<!--floor-nav-->
+<div class="floor-nav">
+  <div class="sp-tip">
+    <a href="javascript:void(0);" id="sp-close-tip" class="close-tip">&nbsp;</a>
+  </div>
+</div>
+<script>
+  window.onload = function() {
+    $("#nav-taoriben").addClass("on")
+  }
+</script>
+ <script src="./build/css/js/app.js?v=<%= time %>"></script> 
+
+<script src="./data/data.js"></script>
+<script src="./src/app.js"></script>
+<script>
+  FloorList(productData)
+</script>
